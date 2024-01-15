@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link href="../style.css" rel="stylesheet" />
+    <link href="login.css" rel=" stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+
+            <h1>Login</h1>
+            <img src="../logo.png" height="100" alt="Logo imagem" />
+
+            <form>
+                <label for="cxEmail">E-mail:</label>
+                <input type="email" id="cxEmail" />
+                <br />
+
+                <label for="cxSenha">Senha:</label>
+                <input type="password" id="cxSenha" />
+                <br />
+
+                <p class="esqueci-senha"><a href="recuperarAcesso.html">Esqueci minha senha</a></p>
+
+                <br />
+                <button id="btnEntrar">Entrar</button>
+            </form>
+
+            <span id="spnErro" class="erro"></span>
+
+            <p>Não possui conta?<a href="cadastro.html">Cadastre-se</a></p>
+
+
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+</html>

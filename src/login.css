@@ -1,0 +1,23 @@
+button {
+    width: 100%;
+}
+
+input[type = "email"], 
+input[type = "password"]{
+
+    width: 100%;
+
+}
+
+.esqueci-senha {
+
+    float: right;
+    font-size: 13px;
+
+}
+
+.box {
+
+    width: 300px;
+
+}
